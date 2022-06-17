@@ -136,8 +136,8 @@ mohnsrho["rho.mu",]
 
 
 
-Bt <- lamsurM3$timeseries[,,3]
-Ft <- lamsurM3$timeseries[,,4]
+Bt <- lcolsurM2$timeseries[,,3]
+Ft <- lcolsurM2$timeseries[,,4]
 plot(Bt[,1],Ft[,1],type = "n",las=1,ylim=c(0,3),xlim=c(0,3),ylab="F/Fmsy",xlab="B/Bmsy",axes = FALSE)
 polygon(c(0,0,0.5,0.5),c(0,3,3,0),col = "grey90", border = "grey90")
 polygon(c(1.5,1.5,3,3),c(0,0.9,0.9,0),col = "lightgreen", border = "lightgreen")
@@ -148,10 +148,10 @@ lines(c(0.8,0.8),c(0,1))
 lines(c(0.5,0.5),c(0,1))
 points(Bt[,1],Ft[,1],pch=19,cex=0.3)
 lines(Bt[,1],Ft[,1])
-lines(c(0.871,2.358),c(0.570,0.570),lwd=4)
-lines(c(1.4892878,1.4892878),c(0.312,1.101),lwd=4)
-points(1.4892878,0.570,pch=19,cex=1.4)
-points(1.4892878,0.570,pch=19,cex=1,col="white")
+lines(c(1.0650694, 1.6917010),c(0.2673,0.2673),lwd=4)
+lines(c(1.3596,1.3596),c(0.167567355688, 0.451657414017),lwd=4)
+points(1.3596,0.2673,pch=19,cex=1.4)
+points(1.3596,0.2673,pch=19,cex=1,col="white")
 axis(side=2,las=1)
 axis(side=1)
 
