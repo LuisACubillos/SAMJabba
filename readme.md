@@ -2,7 +2,7 @@
 
 Evaluación de Stock de Crustáceos Demersales en Chile utilizando Modelos de Producción Bayesiano en el espacio de los estados. Para ello se utiliza el enfoque JABBA (Just Another Bayesian Biomass Assessment) descrito por Winker et al. (2018).
 
-Las pesquerías de crustáceos demersales e: a) langostino amarillo (_Cervimunida johni_), b) Langostino colorado (_Pleuroncodes monodon_); y camarón nailon (_Heterocarpus redii_).
+Las pesquerías de crustáceos demersales e: a) langostino amarillo (_Cervimunida johni_), b) Langostino colorado (_Pleuroncodes monodon_); y camarón nailon (_Heterocarpus reedi_).
 
 Encargados de la evaluación:
 
